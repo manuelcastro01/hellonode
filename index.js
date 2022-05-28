@@ -1,10 +1,9 @@
 const http = require('http');
 const port = process.env.PORT || 3000;
-const { pool } = require("db");
 
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
-  const msg = 'Hello Node siu!\n '
+  const msg = 'Hello Node siu99!\n '
   res.end(msg);
 });
 
