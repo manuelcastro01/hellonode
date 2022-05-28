@@ -12,7 +12,7 @@ const pool = new Pool(config);
 
 const getBooks = async () => {
     try {
-        const res = await pool.query('select * from books');
+        const res = await pool.query('select * from Empleado');
         // console.log(res)
         console.log(res.rows);
         pool.end();
